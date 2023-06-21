@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+input{
+    border: none;
+    background-color: rgb(77, 74, 74);
+    border-radius: 20px;
+    height: 40px;
+    width: 43em;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 90px;
+    text-align: center;
+    color: white;
+    height: 70px;
+    font-family: sans-serif;
+    font-weight: 400;
+    
+}
+
+.lupa{
+    position: absolute;
+    display: flex;
+    padding-left: 20px;
+    top: 212px;
+    height: 15px;
+    fill: white;
+
+}
+
+.itens{
+    
+    position: absolute;
+    margin-left: 501px;
+    top: 212px;
+    fill: white
+
+}
+
+button{
+   
+    position: relative;
+    left: 8em;
+    color: white;
+    border: none;
+    margin-top: 18px;
+    margin-left: 10px;
+    width: 12em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(77, 74, 74); 
+
+}
